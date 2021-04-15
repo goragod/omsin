@@ -1,0 +1,24 @@
+<header class=header id=scroll-to>
+  <div class="menu_wrapper menu_bg gcss-wrapper">
+    <nav id=topmenu class="topmenu slidemenu">
+      <ul>{MENUS}{LOGIN}</ul>
+    </nav>
+  </div>
+  <div class="icon-language language-menu" title="{LNG_Change language}" data-text="{LANGUAGE}">
+    <ul>{LANGUAGES}</ul>
+  </div>
+</header>
+<div class=center>
+  <div id=logo>
+    <h2><a href="{WEBURL}index.php" title="{WEBTITLE}">{LOGO}</a></h2>
+    <p class="description">{WEBDESCRIPTION}</p>
+  </div>
+</div>
+<div id=skip class="gcss-wrapper clear">
+  <main id=content class=border-color>{CONTENT}</main>
+</div>
+<script>
+  $G(window).Ready(function() {
+    initWeb();
+  });
+</script>
